@@ -1,4 +1,4 @@
-FROM maven:3.5
+FROM maven:3.9.11
 EXPOSE 8080
 WORKDIR /opt/shipping-app
 COPY src ./src
